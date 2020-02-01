@@ -12,7 +12,7 @@ Features:-
  
  by the means of voting (i.e., approval by majority).
  
- 3. Impenetrable contract provides high security.
+3. Impenetrable contract provides high security.
  
- 4.Provides transparency for all money transactions.
+4.Provides transparency for all money transactions.
  
