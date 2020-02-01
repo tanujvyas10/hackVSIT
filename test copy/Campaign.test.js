@@ -1,4 +1,4 @@
-require('events').EventEmitter.prototype._maxListeners = 100;//listener is lower needed to increase
+require('events').EventEmitter.prototype._maxListeners = 101;//listener is lower needed to increase
 const assert = require('assert')
 const ganache = require('ganache-cli')
 const Web3 = require('web3')
@@ -20,7 +20,7 @@ beforeEach(async ()=>{
     .deploy({ data : compiledFactory.bytecode})
     .send({from : accounts[0], gas:'1000000'});
    
-    await factory.methods.createCampaign('100').send({
+    await factory.methods.createCampaign('200').send({
         from : accounts[0],
         gas:'1000000'
     });
@@ -48,7 +48,7 @@ describe('Campaigns',()=>{
 
     it('allows people to contribute money and marks them as approvers',async()=>{
         await campaign.methods.contribute().send({
-            value:'200',
+            value:'300',
             from : accounts[1]
         })
 
@@ -70,7 +70,7 @@ describe('Campaigns',()=>{
     })
 
     it('allow a manager to make a payment request',async()=>{
-        await campaign.methods.createRequest("buy battereis",'100',accounts[1])
+        await campaign.methods.createRequest("buy battereis",'200',accounts[1])
         .send({
             from:accounts[0],
             gas:'1000000'
