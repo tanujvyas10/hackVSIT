@@ -2,7 +2,7 @@
 
 #### hackVSIT
 
-We are developing a platform using Ethereum and Solidity to imporve and optimize the money transaction mechanism of any public funded organisation/NGO.
+We are developing a platform using Ethereum and Solidity to improve and optimize the money transaction mechanism of any public funded organisation/NGO.
 
 Features:-
 
