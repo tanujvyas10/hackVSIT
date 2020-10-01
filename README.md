@@ -1,4 +1,4 @@
-# About the project
+# CRYPT-FUND
 We are developing a platform using Ethereum and Solidity to improve and optimize the money transaction mechanism of any public funded organisation/NGO.
 
 Features:-
