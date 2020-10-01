@@ -21,4 +21,3 @@ by the means of voting (i.e., approval by majority).
 * Solidity
 * Web3.js
 
- 
